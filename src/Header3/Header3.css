@@ -1,0 +1,115 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header3 {
+  color: white;
+  background: linear-gradient(45deg, #1d91e0, #191166);
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header3 .header3-container {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .header3 .header3-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 600px) {
+  .header3 .header3-container .logo3 {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header3 .header3-container .logo3 {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .header3 .header3-container .logo3 img {
+    width: 30px;
+  }
+}
+
+.header3 .header3-container .nav3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 600px) {
+  .header3 .header3-container .nav3 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header3 .header3-container .nav3 {
+    position: fixed;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    left: -100px;
+  }
+}
+
+.header3 .header3-container .nav3 .a3 {
+  color: white;
+  outline: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header3 .header3-container .nav3 .a3:hover,
+.header3 .header3-container .nav3 .a3:active,
+.header3 .header3-container .nav3 .a3:focus {
+  color: #688cc7;
+}
+
+@media (min-width: 600px) {
+  .header3 .header3-container .menu3 {
+    cursor: pointer;
+    display: none;
+  }
+  .header3 .header3-container .menu3 .a3.show {
+    top: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header3 .header3-container .menu3 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+}
+/*# sourceMappingURL=Header3.css.map */

@@ -1,0 +1,99 @@
+// Formato inicial
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    @media (min-width: 600px){
+        font-size: medium;
+    }
+    @media (max-width: 600px){
+        font-size: large;
+    }
+}
+
+
+p {
+    margin: 10px 10px 0px 0px;
+}
+li{
+    list-style-type: none;
+}
+
+// botones
+input {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    background: rgb(255, 191, 73);
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+.body-container {
+    @media (min-width: 600px) {
+        display: flex;
+        margin-top: 40px;
+    }
+    aside {
+        @media (min-width: 600px){
+            width: 20%;
+            margin-left:10px;
+            padding-left: 10px;
+            padding-top: 30px;
+        }
+        background: linear-gradient(45deg, #f6fdfa, #bcf7f8);
+        display: flex;
+        .body-menu {
+            @media (min-width: 600px) {
+                width: 70%;
+                margin-left: 0px;
+            }
+            @media (max-width: 600px) {
+                width: 100%;
+                margin-left: 10px;
+            }
+            
+        }
+    }
+
+    main {
+        @media (min-width: 600px){
+            width: 70%;
+        }
+        display: flex;
+        justify-content: center;
+        .body-articles {
+            background: linear-gradient(45deg, #f6fdfa, #bcf7f8);
+            @media (min-width: 600px){
+                width: 90%;
+            }
+            article {
+                color: black;
+                font-size: 20px;
+                font-family: "Montserrat", sans-serif;
+                text-align: justify;
+                @media (min-width: 600px){
+                    padding:30px 30px 0px 30px;
+                }
+                @media (max-width: 600px){
+                    padding: 15px 15px 0px 15px;
+                }
+                figure {
+                    img {
+                        padding-top: 10px;
+                        @media (min-width: 600px){
+                        width: 100%; 
+                        }
+                        @media (max-width: 600px){
+     
+                        width: 100%; 
+                        }
+                                             
+                    }
+                }
+            }
+        }
+    }
+}

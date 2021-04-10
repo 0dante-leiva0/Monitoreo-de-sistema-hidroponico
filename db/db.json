@@ -1,0 +1,26 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "lucho",
+      "apellido": "suarez"
+    },
+    {
+      "id": 2,
+      "nombre": "Andre",
+      "apellido": "mejia"
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    }
+  ]
+}
